@@ -4,7 +4,7 @@
 
 [project]
 name = "vue-language-server-feedstock"
-version = "3.45.4"
+version = "3.46.0"
 description = "Pixi configuration for conda-forge/vue-language-server-feedstock"
 authors = ["@conda-forge/vue-language-server"]
 channels = ["conda-forge"]
