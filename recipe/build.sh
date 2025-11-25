@@ -10,9 +10,6 @@ npm install -ddd \
     --build-from-source \
     ${SRC_DIR}/${PKG_NAME}-${PKG_VERSION}.tgz
 
-# remove unneeded symlink
-rm ${PREFIX}/lib/node_modules/@emmetio/css-parser
-
 # Create license report for dependencies
 pnpm install
 pnpm-licenses generate-disclaimer --prod --output-file=third-party-licenses.txt
