@@ -1,5 +1,5 @@
 context:
-  version: "3.2.6"
+  version: "3.2.7"
 
 package:
   name: vue-language-server
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/@vue/language-server/-/language-server-${{ version }}.tgz
-  sha256: 4c8c7767712efa682f9d2de55c092d2fff3efcfedc343fbd4c609bc62dff147d
+  sha256: 25e90fe3dc06281df80349476a4ffd2f81ec5738fbd63a82b3812b5dddaec344
 
 build:
   number: 0
